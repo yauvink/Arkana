@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-<header>
-  <div class="header-inner">
-    <div class="menu-left">
+<header class="site-header">
+  <div class="site-header__inner">
+    <div class="site-header__inner__menu-left">
       <ul>
         <li><i class="fas fa-bars"></i></li>
         <li><i class="fas fa-search"></i></li>
@@ -23,14 +23,14 @@
     <div class="logo">
       <img src="images/logo.png" alt="logo">
     </div>
-    <div class="menu-right">
+    <div class="site-header__inner__menu-right">
       <ul>
         <li><i class="fas fa-share-alt"></i></li>
         <li><i class="fas fa-briefcase"></i></li>
       </ul>
     </div>
   </div>
-  <nav class="header-nav">
+  <nav class="site-header__nav">
     <ul>
       <li>dresses</li>
       <li>blouses</li>
@@ -65,9 +65,9 @@
   <script type="text/javascript">
     $(document).ready(function(){
       $('.slider').slick({
-        autoplay: true,
+        autoplay: false,
+        fade: true,
         dots: true,
-        arrows: true,
       slidesToShow: 1,
       slidesToScroll: 1
       });
