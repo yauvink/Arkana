@@ -1,38 +1,39 @@
-.slider{
-	// width: 1920px;
-width: 100%;
+.slider {
+	width: 100%;
 	color: $text-color;
 	overflow: hidden;
-	h2{
+	h2 {
 		margin: 0;
 		padding: 0;
 		font-weight: 200;
 		letter-spacing: 0.9px;
 	}
-	p{
+	p {
 		width: 356px;
 		margin: 18px 0px;
 	}
 }
-.slider-inner{
- padding: 327px 0px 0px 119px;
- 	background-image: url("../images/slider-bg.png");
- 	background-position: center;
+.slider-inner {
+	padding: 327px 0px 0px 119px;
+	background-image: url("../images/slider-bg.png");
+	background-position: center;
 	height: 899px;
 
+	&__button {
+		background-color: rgb(0, 0, 0);
+		width: 194px;
+		height: 56px;
+		border: none;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 11px;
+		margin-top: 28px;
+		cursor: pointer;
+
+		&:hover {
+			color: rgba(255, 255, 255, 0.4);
+		}
+	}
 }
-button {
-  background-color: rgb(0, 0, 0);
-  width: 194px;
-  height: 56px;
-  border: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 11px;
-  margin-top: 28px;
-  cursor: pointer;
-  &:hover{
-  	color: rgba(255, 255, 255, 0.4);
-  }
-}
+
 
