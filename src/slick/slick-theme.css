@@ -173,7 +173,7 @@
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before
 {
-   /* opacity: 1;*/
+    opacity: 1;
    background-color: black;
 }
 .slick-dots li button:before
@@ -204,4 +204,7 @@
 {
     opacity: .75;
     color: white;
+}
+.slick-active{
+    color: black;
 }
